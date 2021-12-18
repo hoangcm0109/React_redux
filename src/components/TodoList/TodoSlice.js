@@ -1,7 +1,7 @@
 const initState = [
-    { id: 1, name: "Learn React", prioriry: "Medium", completed: false },
-    { id: 2, name: "Learn Next JS", prioriry: "High", completed: true },
-    { id: 3, name: "Learn TypeScript", prioriry: "Low", completed: false },
+    { id: 1, name: "Learn React", priority: "Medium", completed: false },
+    { id: 2, name: "Learn Next JS", priority: "High", completed: true },
+    { id: 3, name: "Learn TypeScript", priority: "Low", completed: false },
 ];
 
 const todoReducer = (state = initState, action) => {

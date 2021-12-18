@@ -24,3 +24,10 @@ export const statusFilterChange = (text) => {
         payload: text
     }
 }
+
+export const priorityFilterChange = (data) => {
+    return {
+        type: 'filters/priorityFilterChange',
+        payload: data
+    }
+}
